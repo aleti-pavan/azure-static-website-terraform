@@ -11,7 +11,7 @@ This repository contains terraform code to host static website in azure with azu
 
 ### Clone
 
-`git clone https://github.com/aleti-pavan/multi-cloud-terraform.git`
+`git clone https://github.com/aleti-pavan/azure-static-website-terraform.git`
 
 ### Create
 
