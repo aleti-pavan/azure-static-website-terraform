@@ -20,6 +20,7 @@ resource "azurerm_storage_blob" "static_website_index" {
   storage_account_name   = azurerm_storage_account.static_website.name
   storage_container_name = "$web"
   type                   = "Block"
+  content_type           = "text/html"
   source                 = "${path.root}/files/index.html"
 }
 
@@ -29,5 +30,6 @@ resource "azurerm_storage_blob" "static_website_error" {
   storage_account_name   = azurerm_storage_account.static_website.name
   storage_container_name = "$web"
   type                   = "Block"
+  content_type           = "text/html"
   source                 = "${path.root}/files/error.html"
 }
