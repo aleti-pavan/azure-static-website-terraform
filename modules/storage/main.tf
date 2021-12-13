@@ -21,6 +21,7 @@ resource "azurerm_storage_blob" "static_website_index" {
   storage_container_name = "$web"
   type                   = "Block"
   content_type           = "text/html"
+  content_md5            = md5(file("${path.root}/files/index.html"))
   source                 = "${path.root}/files/index.html"
 }
 
