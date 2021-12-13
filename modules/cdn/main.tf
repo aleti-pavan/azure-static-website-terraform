@@ -16,6 +16,7 @@ resource "azurerm_cdn_profile" "static_website" {
 resource "azurerm_cdn_endpoint" "static_website" {
   name                = var.cdn_endpoint_name
   profile_name        = azurerm_cdn_profile.static_website.name
+  is_http_allowed     = false
   location            = var.cdn_rg_location
   resource_group_name = var.cdn_rg_name
   origin_host_header  = var.cdn_primary_web_host
