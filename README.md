@@ -6,8 +6,9 @@ This repository contains terraform code to host static website in azure with azu
 
 ## Prerequisites
 
-  `1. Azure subscription`
-You should have Azure Subscription to create the resources.
+`1. Azure subscription`
+
+Azure Subscription to create the resources.
 
 `2. az cli`
 
@@ -19,7 +20,7 @@ You should [deploy az cli](https://docs.microsoft.com/en-us/cli/azure/install-az
 
 `4. az account show`
 
-above command should show the details of the subscription where you want to create resources.
+Above command should show the details of the subscription where you want to create resources.
 
 
 
