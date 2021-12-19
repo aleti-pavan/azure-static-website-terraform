@@ -4,8 +4,17 @@ This repository contains terraform code to host static website in azure with azu
 ![Hosting Static Website in Azure with Terraform](files/azure_static_website.jpg)
 
 
+## Prerequisites
 
+  `1. Azure subscription`
 
+You should have Azure Subscription to create the resources.
+  `2. ![az cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)`
+You should deploy az cli in your work station.
+  
+  3. az account show
+
+```
 
 ## Commands
 
