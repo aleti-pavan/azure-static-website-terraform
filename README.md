@@ -21,7 +21,7 @@ You should ![deploy az cli](https://docs.microsoft.com/en-us/cli/azure/install-a
 
 above command should show the details of the subscription where you want to create resources.
 
-```
+
 
 ## Commands
 
