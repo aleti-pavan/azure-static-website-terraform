@@ -11,11 +11,11 @@ You should have Azure Subscription to create the resources.
 
 `2. az cli`
 
-You should ![deploy az cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) in your work station.
+You should [deploy az cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) in your work station.
 
 `3. az login`
 
-![Login](https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli) to your azure subscription with az login command.
+[Login](https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli) to your azure subscription with az login command.
 
 `4. az account show`
 
